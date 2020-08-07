@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="background-color: blanchedalmond;">
@@ -14,7 +15,7 @@
     <div class="ui borderless yellow inverted menu">
         <img class="ui image" src="images/banner.png">
         <div class="ui header item">
-            <p style="font-family: 'Dancing Script', cursive; font-size: 26px;" class='header'> Amigurumis</p>
+            <p style="font-family: 'Dancing Script', cursive; font-size: 26px;, max-width: ;" class='header'> Amigurumis</p>
         </div>
     </div>
     <!-- Menú -->
@@ -32,9 +33,31 @@
             <div class="ui slide masked reveal image">
                 <img src="images/0fp7ghageqk21.jpg" class="visible content">
                 <img src="images/MoUFyMQ.jpg" class="hidden content">
+                
             </div>     
         </div>
+        
+        <!-- https://codepen.io/hougasian/pen/RKXbLd -->
+        ​<!-- simple Semantic UI slides -->
+<!-- initial slide must be set to .active -->
+<div class="ui container">
+    <div class="ui text container slides">
+      <p class="ui centered header">Nuestros Productos</p>
+      <i class="big left angle icon"></i>
+      <i class="big right angle icon"></i>
+      <div class="slide active">
+        <img src="https://http2.mlstatic.com/muneco-hipopotamo-amigurumi-crochet-20cm-de-alto-D_NQ_NP_711774-MLA27586834907_062018-F.jpg" style="max-width: 200px;">
+      </div>
+      
+      <div class=" image slide">
+        <img src="https://i1.wp.com/www.tarturumies.com/wp-content/uploads/2018/07/PERFIL-ZORRO-1-INSTAGRAM-PEQUE.png?ssl=1" style="max-width: 200px;">
+      </div>
+      <div class=" image slide">
+       <img src="https://i.pinimg.com/originals/c1/02/8f/c1028f78f2f18e0d3da43a479a7a4fbd.jpg" style="max-width: 200px;">
+      </div>
     </div>
+  </div>
+
     <!-- Footer -->
     <div class="ui inverted horizontal footer segment">
         <div class="ui right aligned grid">
@@ -62,6 +85,7 @@
               </div>
             </div>
           </div>
+          <script src="slider.js"></script>
 </body>
 </html>
 

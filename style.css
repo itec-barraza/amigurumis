@@ -1,0 +1,45 @@
+// basic setup
+body {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+// slides css
+.slides {
+  background: white;
+  // must have height set
+
+  overflow: hidden;
+  .angle {
+    color: lightblue;
+    cursor: pointer;
+    position: relative;
+    top: calc(50% - 20px);
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    z-index: 10;
+    &:hover {
+      transform: scale(1.7);
+    }
+    &.right {
+      float: right;
+      margin-right: 1rem;
+    }
+    &.left {
+      float: left;
+      margin-left: 1rem;
+    }
+  }
+  .slide {
+    transition: all 0.2s ease-in-out;
+    &:not(.active) {
+      display: none;
+    }
+  }
+}
+
+
+
