@@ -1,9 +1,10 @@
-body {
-    background: grey;
-  }
+
   .slides {
-    background: white;
+    background: blanchedalmond;
   }
+  .slides .header{
+    font-style: oblique;      
+}
   .slides .angle {
     color: lightblue;
     cursor: pointer;

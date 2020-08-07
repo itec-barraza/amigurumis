@@ -14,4 +14,3 @@ $(".right").on("click", function () {
       .prev()
       .addClass("active");
   });
-  
