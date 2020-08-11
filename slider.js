@@ -1,4 +1,4 @@
-$(".right").on("click", function () {
+$(".right.angle").on("click", function () {
     console.log("right");
     $(".slide")
       .siblings(".active:not(:last-of-type)")
@@ -7,7 +7,7 @@ $(".right").on("click", function () {
       .addClass("active");
   });
   
-  $(".left").on("click", function () {
+  $(".left.angle").on("click", function () {
     $(".slide")
       .siblings(".active:not(:first-of-type)")
       .removeClass("active")
