@@ -38,4 +38,6 @@ body{
   .slides .slide:not(.active) {
     display: none;
   }
-  
+  .adultos .header {
+    font-style: oblique;
+  }
